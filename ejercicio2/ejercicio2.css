@@ -1,0 +1,27 @@
+fieldset legend {
+	font-family: Verdana;
+	font-weight: bold;
+	color: darkblue;
+}
+
+body, label, input, select {
+	font-family: Calibri;
+}
+
+body {
+	font-weight: bold;
+	color: darkblue;
+	background-color: skyblue;
+}
+
+input[type="radio"] + img {
+	width: 50px;
+}
+
+input[type="submit"] {
+	font-family: Arial;
+	padding: 25px;
+	background-color: darkblue;
+	color: skyblue;
+	font-size: 2em;
+}

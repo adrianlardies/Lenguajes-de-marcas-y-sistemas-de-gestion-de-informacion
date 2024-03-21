@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ejercicio 2: Compra de entradas</title>
+		<link rel="stylesheet" href="ejercicio2.css" type="text/css">
+	</head>
+	<body>
+		<form method="GET" action="ejercicio2b.html">
+			<fieldset>
+				<br>
+				<legend>Entradas</legend>
+				<label for="nentradas">Número de entradas:</label>
+				<select id="nentradas" name="nentradas">
+				  <option value="opcion1">1</option>
+				  <option value="opcion2">2</option>
+				  <option value="opcion3">3</option>
+				  <option value="opcion4">4</option>
+				  <option value="opcion5">5</option>
+				</select><br>
+				<br>
+				<label for="categoria">Categoría:</label>
+				<br>
+				<select id="categoria" name="categoria">
+				  <option value="general">Pista General</option>
+				  <option value="front">Front Stage</option>
+				  <option value="palco">Palco</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<br>
+				<legend>Datos del comprador</legend>
+				<label for="nombre">Nombre:</label>
+				<input type="text" id="nombre" name="nombre"><br>
+				<br>
+				<label for="apellidos">Apellidos:</label>
+				<input type="text" id="apellidos" name="apellidos"><br>
+				<br>
+				<label for="email">E-Mail:</label>
+				<input type="email" id="email" name="email"><br>
+				<br>
+				<label for="fecha">Fecha de nacimiento:</label>
+				<input type="date" id="fecha" name="fecha"><br>
+				<br>
+			</fieldset>
+			<fieldset>
+				<legend>Pago</legend>
+				<p>Selecciona el método de pago:<br>
+				<br>
+				<label for="visa">
+				<input type="radio" id="visa" name="visa" value="visa">
+				<img src="visaLogo.png" alt="Logo de Visa">
+				</label><br>
+				<label for="master">
+				<input type="radio" id="master" name="master" value="master">
+				<img src="masterLogo.png" alt="Logo de Mastercard">
+				</label><br>
+				<label for="paypal">
+				<input type="radio" id="paypal" name="paypal" value="paypal">
+				<img src="paypalLogo.png" alt="Logo de Paypal">
+				</label><br>
+				<label for="bizum">
+				<input type="radio" id="bizum" name="bizum" value="bizum">
+				<img src="bizumLogo.jpg" alt="Logo de Bizum">
+				</label><br>
+				<br>
+				<input type="checkbox" id="acepto" name="acepto" value="acepto">
+				<label for="acepto">Acepto las condiciones de compra</label><br>
+				<br>
+				<input type="submit" value="Proceder al pago">
+			</fieldset>
+		</form>
+	</body>
+</html>

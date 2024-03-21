@@ -1,0 +1,43 @@
+img {
+	width: 250px;
+	box-shadow: 2px 2px black;
+}
+
+table {
+	width: 250px;
+	box-shadow: 2px 2px black;
+	margin-top: 10px;
+	border: 3px solid red;
+	border-collapse: collapse;
+}
+
+th {
+	font-family: Verdana, sans-serif;
+	background-color: pink;
+}
+
+td {
+	border: 3px solid red;
+	padding-left: 5px;
+	font-family: Impact, sans-serif;
+}
+
+td:first-child {
+	width: 15%;
+	background-color: hotpink;
+}
+
+td:nth-child(2) {
+	width: 60%;
+}
+
+td:nth-child(3) {
+	width: 25%;
+}
+
+tr:nth-child(4) {
+	background-color: yellow;
+	font-weight: bold;
+	color: red;
+	text-shadow: 2px 2px black;
+}

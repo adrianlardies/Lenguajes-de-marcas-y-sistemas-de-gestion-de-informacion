@@ -1,0 +1,56 @@
+<?xml version=”1.0” encoding=”UTF-8”?>
+<eurovision>
+	<participante>
+		<pais>Alemania</pais>
+		<titulo>
+			<original>Rockstars</original>
+			<castellano>Estrellas del rock</castellano>
+		</titulo>
+		<artista>Malik Harris</artista>
+		<idioma>Inglés</idioma>
+		<video>D3FN2umFaM8</video>
+	</participante>
+	<participante>
+		<pais>España</pais>
+		<titulo>
+			<original>SloMo</original>
+			<castellano>Cámara lenta</castellano>
+		</titulo>
+		<artista>Chanel</artista>
+		<idioma>
+			<idioma_1>Español</idioma_1>
+			<idioma_2>Inglés</idioma_2>
+		</idioma>
+		<video>TO2yGXVQCfo</video>
+	</participante>
+	<participante>
+		<pais>Finlandia</pais>
+		<titulo>
+			<original>Jezebel</original>
+			<castellano>Jezebel</castellano>
+		</titulo>
+		<artista>The Rasmus</artista>
+		<idioma>Inglés</idioma>
+		<video>XtMfCf3vFbc</video>
+	</participante>
+	<participante>
+		<pais>Italia</pais>
+		<titulo>
+			<original>Brividi</original>
+			<castellano>Escalofríos</castellano>
+		</titulo>
+		<artista>Mahmood & Blanco</artista>
+		<idioma>Italiano</idioma>
+		<video>4MgMhzfUmiA</video>
+	</participante>
+	<participante>
+		<pais>Ucrania</pais>
+		<titulo>
+			<original>Stefania</original>
+			<castellano>Estefanía</castellano>
+		</titulo>
+		<artista>Kalush Orchstra</artista>
+		<idioma>Ucraniano</idioma>
+		<video>UiEGVYOruLk</video>
+	</participante>
+</eurovision>
